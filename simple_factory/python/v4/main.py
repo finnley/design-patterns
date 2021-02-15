@@ -1,4 +1,4 @@
-from operation_factory import OperationFactory
+import OperationFactory
 
 class Program(object):
     def main(self):

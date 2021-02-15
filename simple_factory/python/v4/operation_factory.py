@@ -1,7 +1,7 @@
-from operation_add import OperationAdd
-from operation_sub import OperationSub
-from operation_mul import OperationMul
-from operation_div import OperationDiv
+import OperationAdd
+import OperationSub
+import OperationMul
+import OperationDiv
 
 # 简单运算工厂类
 class OperationFactory(object):

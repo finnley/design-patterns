@@ -53,9 +53,9 @@ B:  /
 C:  0
 Expression: D = A / C = 10 / 0
 Traceback (most recent call last):
-  File "/Users/finnley/Code/design-patterns/simple_factory/python/v1/main.py", line 33, in <module>
+  File "/Users/finnley/Code/design-patterns/simple_factory/python2/v1/main.py", line 33, in <module>
     run.main()
-  File "/Users/finnley/Code/design-patterns/simple_factory/python/v1/main.py", line 27, in main
+  File "/Users/finnley/Code/design-patterns/simple_factory/python2/v1/main.py", line 27, in main
     D = str(float(A) / float(C))
 ZeroDivisionError: float division by zero
 '''
