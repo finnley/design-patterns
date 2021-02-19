@@ -15,7 +15,7 @@ class Program(object):
     }
 
     # 折扣
-    def getDistcountMessage(self, index='a'):
+    def getDiscountMessage(self, index='a'):
         return self.discountMessage.get(index)
 
     def main(self):
@@ -47,11 +47,12 @@ class Program(object):
 
         total = total + totalPrices
 
-        print("单价：" + price + " 数量：" + num + " 折扣: " + self.getDistcountMessage(index) + " 合计：" + str(total))
+        print("单价：" + price + " 数量：" + num + " 折扣: " + self.getDiscountMessage(index) + " 合计：" + str(total))
 
 
-run = Program()
-run.main()
+if __name__ == "__main__":
+    run = Program()
+    run.main()
 
 '''
 总结：

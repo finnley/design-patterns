@@ -1,3 +1,7 @@
 .idea
 
 simple_factory/python/v4/__pycache__/
+
+strategy_pattern/__pycache__/
+strategy_pattern/python/__pycache__/
+strategy_pattern/python/v3/__pycache__/
